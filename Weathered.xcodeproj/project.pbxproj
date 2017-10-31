@@ -11,6 +11,7 @@
 		C090E9F61FA897080086E4CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C090E9F51FA897080086E4CA /* ViewController.swift */; };
 		C090E9F81FA897080086E4CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C090E9F71FA897080086E4CA /* Assets.xcassets */; };
 		C090E9FB1FA897080086E4CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C090E9F91FA897080086E4CA /* Main.storyboard */; };
+		C090EA0D1FA897A30086E4CA /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C090EA0C1FA897A30086E4CA /* WeatherService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C090E9FA1FA897080086E4CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C090E9FC1FA897080086E4CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C090E9FD1FA897080086E4CA /* Weathered.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Weathered.entitlements; sourceTree = "<group>"; };
+		C090EA0C1FA897A30086E4CA /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,8 @@
 			children = (
 				C090E9F21FA897080086E4CA /* Weathered */,
 				C090E9F11FA897080086E4CA /* Products */,
+				C090EA051FA897250086E4CA /* Pods */,
+				C090EA061FA8972C0086E4CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +57,13 @@
 		C090E9F21FA897080086E4CA /* Weathered */ = {
 			isa = PBXGroup;
 			children = (
+				C090EA031FA897120086E4CA /* Services */,
+				C090EA041FA8971C0086E4CA /* Model */,
+				C090EA0B1FA897540086E4CA /* View */,
+				C090EA0A1FA8974C0086E4CA /* Controller */,
+				C090EA091FA897450086E4CA /* Xibs */,
+				C090EA081FA8973A0086E4CA /* Utilities */,
+				C090EA071FA897330086E4CA /* Extensions */,
 				C090E9F31FA897080086E4CA /* AppDelegate.swift */,
 				C090E9F51FA897080086E4CA /* ViewController.swift */,
 				C090E9F71FA897080086E4CA /* Assets.xcassets */,
@@ -61,6 +72,70 @@
 				C090E9FD1FA897080086E4CA /* Weathered.entitlements */,
 			);
 			path = Weathered;
+			sourceTree = "<group>";
+		};
+		C090EA031FA897120086E4CA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C090EA0C1FA897A30086E4CA /* WeatherService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C090EA041FA8971C0086E4CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C090EA051FA897250086E4CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C090EA061FA8972C0086E4CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		C090EA071FA897330086E4CA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C090EA081FA8973A0086E4CA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C090EA091FA897450086E4CA /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		C090EA0A1FA8974C0086E4CA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C090EA0B1FA897540086E4CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C090E9F61FA897080086E4CA /* ViewController.swift in Sources */,
+				C090EA0D1FA897A30086E4CA /* WeatherService.swift in Sources */,
 				C090E9F41FA897080086E4CA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
